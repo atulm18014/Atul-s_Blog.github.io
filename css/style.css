@@ -6,6 +6,7 @@ body {
     background-color: rgb(20, 18, 18) ;
     color: white;
     font-family: "Inconsolata", monospace;
+    min-height: 100%;
 }
 .container {
     max-width: 1170px !important;
@@ -83,7 +84,7 @@ body {
     justify-content: center;
 }
 footer{
-    margin-top: 90px;
+    margin-top: auto;
 }
 /* Scroll bar */
 /* width */
@@ -107,3 +108,21 @@ footer{
   ::-webkit-scrollbar-thumb:hover {
     background: #630e63fd; 
   }
+
+  
+@media only screen and (max-width: 768px) {
+   .navbar-brand p{
+    font-size: 10px;
+   }
+   .container{
+    width: 90% !important;
+   }
+    }
+    @media only screen and (max-width: 968px) {
+        .navbar-brand p{
+         font-size: 15px;
+        }
+        .container{
+         width: 90% !important;
+        }
+         }
