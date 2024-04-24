@@ -1,0 +1,55 @@
+ul {
+    list-style: none;
+  }
+  
+  .example-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .example-1 .icon-content {
+    margin: 0 10px;
+    position: relative;
+  }
+  .example-1 .icon-content .tooltip {
+    position: absolute;
+  
+    background-color: #000;
+    color: #fff;
+   
+    opacity: 0;
+    visibility: hidden;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+
+  .example-1 .icon-content .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .icon-content{
+  margin: 20px;
+  width: 50px;
+ }
+
+ /* connect page  */
+ .section-header{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+  font-size: 70px;
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+*,
+body {
+    background-color: rgb(20, 18, 18) ;
+    color: white;
+    font-family: "Inconsolata", monospace;
+}
+.container {
+    max-width: 1170px !important;
+}
+.logonav {
+    height: auto;
+    width: 150px;
+    border-radius: 75px;
+}
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-brand h1 {
+    margin-top: 10px;
+    color: white;
+    font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar-brand p{
+    font-family: "Silkscreen", sans-serif;
+    color: #5c5050b3;
+}
+
+.nav li {
+    margin: 10px;
+}
+
+.navtext {
+    color: white;
+}
+
+.nav a {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+.nav a:hover {
+    background-color: rgba(182, 31, 31, 0.712);
+    border-radius: 10px;
+}
+.text{
+   margin: 20px;
+    padding: 20px 30px !important ;
+    border-radius: 10px;
+    background-color: rgba(43, 41, 41, 0.904);
+}
+.text h2,h4,p,b{
+    background-color: transparent;
+}
+.text h2{
+    font-family: "Silkscreen", sans-serif;
+}
+
+.sub{
+    color: #5c5050b3;
+}
+.text-2
+{
+    margin-top: 25px;
+}
+
+/* Time */
+.time{
+    background-color: transparent;
+}
+.copyright{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    margin-top: 90px;
+}
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(52, 77, 192, 0.856); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #630e63fd; 
+  }
